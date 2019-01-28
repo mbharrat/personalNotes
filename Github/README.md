@@ -185,6 +185,11 @@ $git merge dev-B
 4. ```git remote add origin <githubURL>```
 5. ```git push -u origin master```
 
+## Steps for renaming a branch (locally and remotely)
+1. Rename your local branch `$git branch -m <newName>`
+2. Delete old name remote branch and push new name local branch: `$git push origin :<oldName> <newName>`
+3. Reset upstream branch for newName local branch: `$git push origin -u <newName>`
+
 
 
 
