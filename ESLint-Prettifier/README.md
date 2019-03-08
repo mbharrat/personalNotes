@@ -125,3 +125,9 @@ Create .prettierrc config filr in the root of your project add add this into tha
 ## Extras
 
 Make sure to add in plugins to your IDE to support eslint and prettier
+
+Keep in mind I need to review all these steps BUT if prettier is not functioning install it globally
+
+```sh
+$npm install -g prettier
+```
